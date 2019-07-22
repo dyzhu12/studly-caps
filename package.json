@@ -1,10 +1,11 @@
 {
   "name": "studly-caps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts a given string to studly caps.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/dyzhu12/studly-caps#readme",
   "dependencies": {
     "seedrandom": "^3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
   }
 }
