@@ -1,0 +1,27 @@
+{
+  "name": "studly-caps",
+  "version": "0.0.1",
+  "description": "Converts a given string to studly caps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyzhu12/studly-caps.git"
+  },
+  "keywords": [
+    "case-style",
+    "studly-caps",
+    "case"
+  ],
+  "author": "David Zhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyzhu12/studly-caps/issues"
+  },
+  "homepage": "https://github.com/dyzhu12/studly-caps#readme",
+  "dependencies": {
+    "seedrandom": "^3.0.1"
+  }
+}
