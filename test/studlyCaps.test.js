@@ -23,4 +23,8 @@ describe('Studly Caps', function () {
     it('handles numbers', function () {
         assert.strictEqual(studlyCaps('l33t c0der', 0), 'l33T c0DEr');
     });
+
+    it('defaults str argument to a string', function () {
+        assert.strictEqual(studlyCaps(), '');
+    });
 });
