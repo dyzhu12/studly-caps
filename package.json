@@ -26,6 +26,6 @@
     "seedrandom": "^3.0.1"
   },
   "devDependencies": {
-    "mocha": "^6.2.0"
+    "mocha": "^10.2.0"
   }
 }
